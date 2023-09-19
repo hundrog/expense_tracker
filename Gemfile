@@ -28,3 +28,6 @@ group :development do
   # gem "spring"
 end
 
+# Provides full Vite.js integration in Ruby web apps [https://github.com/ElMassimo/vite_ruby]
+gem "vite_rails", "~> 3.0"
+
