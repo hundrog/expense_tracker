@@ -26,6 +26,8 @@ end
 group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  # Brings Rails named routes to modern javascript (https://github.com/elmassimo/js_from_routes)
+  gem "js_from_routes", "~> 2.0.4"
 end
 
 # Provides full Vite.js integration in Ruby web apps [https://github.com/ElMassimo/vite_ruby]
