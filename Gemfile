@@ -31,3 +31,6 @@ end
 # Provides full Vite.js integration in Ruby web apps [https://github.com/ElMassimo/vite_ruby]
 gem "vite_rails", "~> 3.0"
 
+# Inertia replaces your application's view layer. The views returned by your application are JavaScript page components. [https://inertiajs.com]
+gem "inertia_rails", "~> 3.0"
+

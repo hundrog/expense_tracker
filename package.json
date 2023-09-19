@@ -2,5 +2,13 @@
   "devDependencies": {
     "vite": "^4.4.9",
     "vite-plugin-ruby": "^3.2.2"
+  },
+  "dependencies": {
+    "@inertiajs/vue3": "^1.0.11",
+    "@mdi/font": "^7.2.96",
+    "@vitejs/plugin-vue": "^4.3.4",
+    "vite-plugin-full-reload": "^1.0.5",
+    "vite-plugin-vuetify": "^1.0.2",
+    "vuetify": "^3.3.17"
   }
 }
