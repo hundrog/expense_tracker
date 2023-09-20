@@ -1,6 +1,6 @@
 <template>
   <div v-for="expense in expenses" :key="expense.id" class="pa-4">
-    <v-card variant="tonal">
+    <v-card :color="expense.category_color">
       <template v-slot:title>
         {{ expense.name }}
       </template>

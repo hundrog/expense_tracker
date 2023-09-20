@@ -3,7 +3,7 @@ class ExpensesController < ApplicationController
 
   # GET /expenses
   def index
-    @expenses = Expense.all
+    @expenses = ExpenseSerializer.many(Expense.includes(:category))
     render inertia: "expenses/index", props: {
       expenses: @expenses
     }

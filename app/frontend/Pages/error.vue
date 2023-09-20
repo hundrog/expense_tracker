@@ -39,6 +39,6 @@ const description = computed(() => {
 
 <style lang="scss" scoped>
 .linear-gradient {
-  background: linear-gradient(#cfd8dc, #fafafa);
+  background: linear-gradient(#78909C, #424242);
 }
 </style>

@@ -40,7 +40,7 @@ const resources = [
 
 <style lang="scss" scoped>
 .inertia-link {
-  color: #212121;
+  color: #F5F5F5;
   text-decoration-line: none;
 }
 </style>

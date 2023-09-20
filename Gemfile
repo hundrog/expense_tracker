@@ -36,3 +36,9 @@ gem "vite_rails", "~> 3.0"
 # Inertia replaces your application's view layer. The views returned by your application are JavaScript page components. [https://inertiajs.com]
 gem "inertia_rails", "~> 3.0"
 
+# A fast JSON parser and serializer. (http://www.ohler.com/oj)
+gem "oj"
+
+# Faster JSON serialization for Ruby on Rails. Easily migrate away from Active Model Serializers (https://github.com/ElMassimo/oj_serializers)
+gem "oj_serializers"
+
