@@ -42,3 +42,12 @@ gem "oj"
 # Faster JSON serialization for Ruby on Rails. Easily migrate away from Active Model Serializers (https://github.com/ElMassimo/oj_serializers)
 gem "oj_serializers"
 
+# Allows to register per-request thread-safe variables (https://github.com/ElMassimo/request_store_rails)
+gem "request_store_rails"
+
+# Devise is a flexible authentication solution for Rails based on Warden. [https://github.com/heartcombo/devise]
+gem "devise"
+
+# CanCanCan is an authorization library for Ruby and Ruby on Rails. [https://github.com/CanCanCommunity/cancancan]
+gem "cancancan"
+

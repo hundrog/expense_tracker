@@ -14,10 +14,13 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar color="primary">
+    <v-app-bar color="primary-darken-1">
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
       <v-app-bar-title>Application</v-app-bar-title>
+      <iLink :href="sessionsApi.destroy.path()" method="delete" class="inertia-link" as="v-btn">
+        <v-btn v-if="$page.props.auth?.user">logout</v-btn>
+      </iLink>
     </v-app-bar>
 
     <v-main>
@@ -30,6 +33,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import { usersSessions as sessionsApi } from "../api";
 
 const drawer = ref(null)
 const resources = [
