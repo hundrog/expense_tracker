@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an example project That I created to go alongside a Medium article I wrote
 
-Things you may want to cover:
+https://medium.com/@oscarreciogonzalez/vue-on-rails-15686b85b1d3
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+It has no tests, no rubocop was used so it is not production ready
