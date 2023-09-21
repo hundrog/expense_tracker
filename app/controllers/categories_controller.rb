@@ -1,9 +1,10 @@
 class CategoriesController < ApplicationController
   before_action :set_category, only: %i[ show edit update destroy ]
+  load_and_authorize_resource
 
   # GET /categories
   def index
-    @categories = Category.all
+    @categories = Category.accessible_by(current_ability)
     render inertia: "categories/index", props: {
       categories: @categories
     }

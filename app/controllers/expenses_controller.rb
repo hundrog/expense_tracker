@@ -1,9 +1,10 @@
 class ExpensesController < ApplicationController
   before_action :set_expense, only: %i[ show edit update destroy ]
+  load_and_authorize_resource
 
   # GET /expenses
   def index
-    @expenses = ExpenseSerializer.many(Expense.includes(:category))
+    @expenses = ExpenseSerializer.many(Expense.includes(:category).accessible_by(current_ability))
     render inertia: "expenses/index", props: {
       expenses: @expenses
     }

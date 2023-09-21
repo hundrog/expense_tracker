@@ -50,4 +50,3 @@ gem "devise"
 
 # CanCanCan is an authorization library for Ruby and Ruby on Rails. [https://github.com/CanCanCommunity/cancancan]
 gem "cancancan"
-
